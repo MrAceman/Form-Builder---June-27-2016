@@ -29,12 +29,26 @@
     background-color: lightyellow;
     padding-left: 10px;
 }
+
+input[type=textarea] {
+  height:auto;
+  white-space:pre-wrap;
+  word-wrap: normal;
+  overflow-x: scroll;
+  height: 50px;
+   }
+
 .fa {
     color: lightgrey;
     position: relative;
     bottom: 20px;
-    left: 5px;
+    left: 5px;}
+
+.fa-comments {
+  position: relative;
+  bottom:53px;
 }
+
 .form_footer {
     height: 75px;
     border: 2px solid lightgrey;
