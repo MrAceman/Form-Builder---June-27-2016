@@ -27,7 +27,7 @@
 }
 .form_field:focus {
     background-color: lightyellow;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .form_select_field select {
@@ -42,6 +42,7 @@
 }
 .form_textarea_field textarea:focus {
     background-color: lightyellow;
+    padding-left: 20px;
 }
 .fa {
     color: lightgrey;
