@@ -11,8 +11,8 @@
 .form_body {
     padding: 35px 25px;
     border: 2px solid lightgrey;
-    border-top:0;
-    border-bottom:0;
+    border-top: 0;
+    border-bottom: 0;
     height: auto;
 }
 .form_label {
@@ -30,25 +30,29 @@
     padding-left: 10px;
 }
 
-input[type=textarea] {
-  height:auto;
-  white-space:pre-wrap;
-  word-wrap: normal;
-  overflow-x: scroll;
-  height: 50px;
-   }
+.form_select_field select {
+    width: 92%;
+    margin-bottom: 15px;
+}
 
+.form_textarea_field textarea {
+    resize: none;
+    width: 90%;
+    border: 1px solid lightgrey;
+}
+.form_textarea_field textarea:focus {
+    background-color: lightyellow;
+}
 .fa {
     color: lightgrey;
     position: relative;
     bottom: 20px;
-    left: 5px;}
-
-.fa-comments {
-  position: relative;
-  bottom:53px;
+    left: 5px;
 }
-
+.fa-comments {
+    position: relative;
+    bottom: 61px;
+}
 .form_footer {
     height: 75px;
     border: 2px solid lightgrey;
