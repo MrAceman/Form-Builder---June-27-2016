@@ -1,55 +1,12 @@
-# Installation
+## Form Builder - Importing live data using ajax
 
-#### Prerequisites
+This HTML, CSS, and JS was created on June 27th, 2016.  The goal was to take make an ajax call to retrieve JSON data and dynamically recreate a simple form using the visual mockup provided by Brit.
 
-Make sure you have an up to date installation of `npm`
-with `brew update` followed by either `brew install npm` or `brew upgrade npm`.
+The primary purpose of this exercise was to work on using the ajax call and associated "then" to ensure that data would be returned prior to attempting to populate the form.  Additionally, further use of CSS styling, conditional loops, and some higher order functions were employed.
 
-Then use npm to install the following apps with `npm install -g $APP_NAME`
-* `gulp-cli`
-* `surge`
+This project has been deployed to Surge at:
+http://tiy-niclaswillems-formbuilder.surge.sh
 
-Finally, I would strongly encourage you to install the `newapp` script from [here][newapp].
+If you'd like to check out more of my work, please visit my GitHub page at https://github.com/MrAceman
 
-[newapp]: https://gist.github.com/kingcons/a25733c233faf10847cbb4ff557e6843
-
-# Usage
-
-#### If you are using the `newapp` tool
-
-*NOTE:* If you do not use a lowercased project/folder name, the automatic deploy to surge with `npm run deploy` will fail as surge.sh always expects lowercased names.
-
-1. Run `$ newapp template <project name>`
-2. Change in to your new project
-3. Initialize Git `$ git init`
-4. Build
-
-#### If you are NOT using the `newapp` tool
-
-1. Clone down this repo
-2. Rename and change into the project folder
-3. Remove `git` from it `$ rm -rf .git`
-4. Initialize Git `$ git init`
-5. Install the dependencies `$ npm install`
-6. Build 
-
-
-# Features
-
-This template features a couple different tools. First it utalizes both NPM and Gulp for different tasks.
-
-## Gulp Tasks
-
-All tasks are listed below, but ideally you will just need to run `gulp start` and be done with it.
-
-- `gulp start`: This is the primary task that will fire up the server and allow you to start building
-- `gulp server`: This will start a Browsersync server with live-reload
-- `gulp sass`: This will compile your SASS
-- `gulp browserify`: This will transpile your JS from ES6 to ES5
-- `gulp watch`: This will start a watcher for files
-
-## NPM Scripts
-
-- `npm run test`: This will launch Mocha in your terminal and run any tests
-- `npm run deploy`: This will deploy your application to Surge.sh for you
-- `npm run lint`: This will run ESLint on your `/src/js` folder
+If you have any questions please email me: [Niclas Willems](mailto:niclas.willems@gmail.com)
